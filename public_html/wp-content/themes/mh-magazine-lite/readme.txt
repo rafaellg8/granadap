@@ -4,8 +4,8 @@ Contributors: mh-themes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets, translation-ready, rtl-language-support, blog, entertainment, news
 
 Requires at least: 4.6.0
-Tested up to: 4.9.0
-Stable tag: 2.7.5
+Tested up to: 4.9.6
+Stable tag: 2.8.1
 License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,25 @@ License: Free Public Domain (GPL Compatible)
 Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
+
+= v2.8.1 16-06-2018 =
+* Updated translation files
+
+= v2.8.0 18-05-2018 =
+* Added support for GDPR features in WP 4.9.6
+* Updated translation files
+
+= v2.7.9 05-05-2018 =
+* Updated translation files
+
+= v2.7.8 10-04-2018 =
+* Fixed incorrect translatable string
+
+= v2.7.7 20-03-2018 =
+* Fixed incorrect translatable string
+
+= v2.7.6 18-02-2018 =
+* Fixed untranslatable string in content-loop.php
 
 = v2.7.5 04-01-2018 =
 * Updated date for copyright notice

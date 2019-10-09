@@ -19,7 +19,34 @@
 		} else {
 			get_template_part('content', 'none');
 		} ?>
+		<div class="banners-footer">
+		    <div class="banner-publi">
+        		<a href="http://www.spicles.com" target="_blank">
+        		    <img src="/wp-content/banners/banner-Spicles.jpg" alt="spicles-grandaprocycling">
+        		</a>
+    		</div>
+    		<div style="clear: both"></div>
+    		<div class="banner-publi">
+        		<a href="https://www.hsnstore.com/hsnaffiliate/click/?linkid=b3RoZXJsaW5rfHxodHRwczovL3d3dy5oc25zdG9yZS5jb20vfHxHUkFOQURBUFJPQ1lDTElOR3x8aHR0cHM6Ly93d3cuaHNuc3RvcmUuY29tLw==" target="_blank">
+        		    <img src="/wp-content/banners/hsn-banner.jpg" alt="hsn-store-granadaprocycling">
+        		</a>
+        	</div>
+        	<div style="clear: both"></div>
+        	<div class="banner-publi">
+    		    <a href="http://msa.training" target="_blank">
+    		        <img src="/wp-content/banners/msa-training.jpg" alt="msa-training-granadaprocycling">
+    		    </a>
+    		</div>
+    	</div>
 	</div>
 	<?php get_sidebar(); ?>
 </div>
+
+<script type="text/javascript">
+    var hidden = false;
+
+    setInterval(function(){
+    document.getElementById("pum-1460").style.display="none";
+    },5000); //Cerrar a los 5 segundos
+</script>
 <?php get_footer(); ?>

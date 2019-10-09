@@ -1,0 +1,18 @@
+10/10/2019
+- Cambio orden de los headers, primero publicidad y después el banner del periódico
+
+27/01/2019
+
+- Cambio enlaces HNS Store.
+
+18/11/2018
+
+- He añadido los banners después del texto y antes del footer.
+Los he añadido en los archivos
+    - homepage.php (página principal)
+    - index.php
+    - content-single.php (artículo)
+    - content-page.php (contenido de una página)
+    - page.php
+    - template-full.php
+    - archive.php (Ficheros de categorías)
