@@ -1,5 +1,6 @@
 10/10/2019
 - Cambio orden de los headers, primero publicidad y después el banner del periódico
+- Cambiar orden posts. Primero imagen, después título y autor.
 
 27/01/2019
 
