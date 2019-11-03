@@ -34,14 +34,13 @@ if (!function_exists('mh_magazine_lite_custom_header')) {
 	function mh_magazine_lite_custom_header() {
 		echo '<div class="mh-custom-header mh-clearfix">' . "\n";
 			if (get_header_image()) {
-			    echo '<a class="mh-header-image-link" target="_blank" href="https://www.vigilsa.es">' . "\n";
-					echo '<img class="mh-header-image" style="float: right" src="/wp-content/banners/headerbanner.gif" height="' . esc_attr(get_custom_header()->height) . '" width="' . esc_attr(get_custom_header()->width) . '" alt="' . esc_attr(get_bloginfo('name')) . '" />' . "\n";
+			    echo '<a class="mh-header-image-link" target="_blank" href="https://spicles.com">' . "\n";
+					echo '<img class="mh-header-image" style="float: right" src="/wp-content/banners/headerbanner.gif" height="' . esc_attr(get_custom_header()->height) . '" width="' . esc_attr(get_custom_header()->width) . '" alt="Spicles bikes" />' . "\n";
 				echo '</a>' . "\n";
-				
 				echo '<a class="mh-header-image-link" href="' . esc_url(home_url('/')) . '" title="' . esc_attr(get_bloginfo('name')) . '" rel="home">' . "\n";
 					echo '<img class="mh-header-image" style="float: right" src="' . esc_url(get_header_image()) . '" height="' . esc_attr(get_custom_header()->height) . '" width="' . esc_attr(get_custom_header()->width) . '" alt="' . esc_attr(get_bloginfo('name')) . '" />' . "\n";
 				echo '</a>' . "\n";
-
+				
 			}
 			if (function_exists('has_custom_logo') && has_custom_logo() || display_header_text()) {
 				echo '<div class="mh-site-identity">' . "\n";

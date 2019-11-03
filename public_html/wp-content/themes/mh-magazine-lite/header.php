@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js" <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Granada Pro Cycling GRPC. La información del #CiclismodeGranada  
-Amateur y Profesional. Noticias, entrevistas, cicloturismo...">
+    <meta name="description" content="Granada Pro Cycling GRPC. La informacion del #CiclismodeGranada Amateur y Profesional. Noticias, entrevistas, cicloturismo...">
     <meta name"keywords" content="Granada Pro Cycling, GRPC, ciclismo, web, granada, Granada, amateur, profesional">
     <meta author="Rafael Lachica Garrido">
-    <meta property="og:title" content="Granada Pro Cycling" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://granadaprocycling.com" />
-    <meta property="og:image" content="https://granadaprocycling.com/wp-content/banners/favicons/grpc-favicon.png" />
     <meta name="robots" content="Index,Follow"
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <?php if (is_singular() && pings_open(get_queried_object())) : ?>
